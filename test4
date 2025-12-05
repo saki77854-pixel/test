@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>活動照片</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>活動照片</h1></header>
+
+<nav>
+    <a href="index.html">首頁</a>
+    <a href="about.html">協會介紹</a>
+    <a href="mission.html">使命願景</a>
+    <a href="news.html">最新消息</a>
+    <a href="gallery.html">活動照片</a>
+    <a href="contact.html">聯絡方式</a>
+</nav>
+
+<section>
+    <h2>協會活動紀錄</h2>
+    <p>上傳照片進 repo，名稱改成 photo1.jpg、photo2.jpg 即可。</p>
+    <img src="photo1.jpg" width="100%">
+    <br><br>
+    <img src="photo2.jpg" width="100%">
+</section>
+
+<footer>© 2025 協會名稱</footer>
+
+</body>
+</html>
