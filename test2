@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>協會官方網站</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #004d7a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        nav a {
+            text-decoration: none;
+            color: #004d7a;
+            font-weight: bold;
+        }
+        section {
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #004d7a;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>協會官方網站</h1>
+    <p>簡潔、清晰、易於導覽的協會資訊網站</p>
+</header>
+
+<nav>
+    <a href="#about">協會介紹</a>
+    <a href="#mission">使命願景</a>
+    <a href="#news">最新消息</a>
+    <a href="#gallery">活動照片</a>
+    <a href="#contact">聯絡方式</a>
+</nav>
+
+<section id="about">
+    <h2>協會介紹</h2>
+    <p>（在這裡放協會背景與簡介文字）</p>
+</section>
+
+<section id="mission">
+    <h2>使命與願景</h2>
+    <p>（在這裡放協會的宗旨、目標與理念）</p>
+</section>
+
+<section id="news">
+    <h2>最新消息</h2>
+    <ul>
+        <li>● 2025/01/01　協會正式啟動新計畫 …</li>
+        <li>● 新聞或公告也可以放這裡</li>
+    </ul>
+</section>
+
+<section id="gallery">
+    <h2>活動照片</h2>
+    <p>（把圖片檔命名後上傳，例如：photo1.jpg、photo2.jpg）</p>
+    <img src="photo1.jpg" alt="活動照片 1" width="100%">
+    <img src="photo2.jpg" alt="活動照片 2" width="100%" style="margin-top:10px;">
+</section>
+
+<section id="contact">
+    <h2>聯絡方式</h2>
+    <p>📞 電話：xxx-xxxx-xxx</p>
+    <p>📧 Email：example@mail.com</p>
+    <p>📍 地址：協會所在地</p>
+</section>
+
+<footer>
+    © 2025 協會名稱 ｜ 本網站由成員維護
+</footer>
+
+</body>
+</html>
